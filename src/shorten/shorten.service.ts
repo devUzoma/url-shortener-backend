@@ -60,7 +60,7 @@ export class ShortenService {
         }
       }
 
-      return `https://short-url-api.fijero.dev/${uniqueKey}`;
+      return `https://short-url-api.uzoma.dev/${uniqueKey}`;
     } catch (error) {
       throw error;
     }
